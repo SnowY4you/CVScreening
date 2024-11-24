@@ -113,7 +113,7 @@ if submit:
         st.table(df)
 
 st.markdown("""
-<div class="container"style='text-align: left; border: 4px solid #198F96; background-color: #d8fcfe; padding: 20px; border-radius: 10px; width: 100%; margin: 0 auto;'>
+<div class="container"style='text-align: left; border: 4px solid #198F96; background-color: #3CA9AD; padding: 20px; border-radius: 10px; width: 100%; margin: 0 auto;'>
     <div class='markdown-text-container'>
         <br>
         <h4 style="text-align: center">Tips to create an ATS friendly resume</h4>
