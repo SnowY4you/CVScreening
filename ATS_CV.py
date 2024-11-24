@@ -48,7 +48,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div class="container" style='border: 4px solid #198F96; padding: 20px; border-radius: 10px; width: 120%; margin: 0 auto;'>
+<div class="container" style='border: 4px solid #198F96; padding: 20px; border-radius: 10px; width: 100%; margin: 0 auto;'>
     <div class='markdown-text-container'>
         <br>
         <h4 style="text-align: center">Improve Your CV get higher ATS (Applicant Tracking System) ratings.</h4>
@@ -74,17 +74,7 @@ jd = st.text_area("Paste the Job Description for the job you are applying for", 
 
 st.markdown("""
 <style>
-    body { 
-        background: linear-gradient(to right, #ff7e5f, #feb47b, #f8e71c, #50a3a2, #4ca1af, #2b5876, #2b5876); 
-        background-size: 200% 200%; 
-        animation: gradientAnimation 10s ease infinite; 
-    } 
-    @keyframes gradientAnimation { 
-        0% { background-position: 0% 50%; } 
-        50% { background-position: 100% 50%; } 
-        100% { background-position: 0% 50%; } 
-    }
-    .stTextArea textarea { 
+     .stTextArea textarea { 
         border-style: solid; 
         border-color: darkcyan; 
         border-width: 4px; 
@@ -123,7 +113,7 @@ if submit:
         st.table(df)
 
 st.markdown("""
-<div class="container" style='text-align: left; border: 4px solid #198F96; background-color: #d8fcfe; padding: 20px; border-radius: 10px; width: 120%; margin: 0 auto;'>
+<div class="container"style='text-align: left; border: 4px solid #198F96; background-color: #d8fcfe; padding: 20px; border-radius: 10px; width: 100%; margin: 0 auto;'>
     <div class='markdown-text-container'>
         <br>
         <h4 style="text-align: center">Tips to create an ATS friendly resume</h4>
