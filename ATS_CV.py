@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Configure the generative model API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# Configure the API key using st.secrets 
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 def get_gemini_response(input):
     model = genai.GenerativeModel('gemini-pro')
